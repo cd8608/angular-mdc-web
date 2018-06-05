@@ -17,7 +17,6 @@ export class AppLayout {
     { name: 'Dialog', route: 'dialog-demo', icon: 'question_answer' },
     { name: 'Drawer', route: 'drawer-demo', icon: 'code' },
     { name: 'Elevation', route: 'elevation-demo', icon: 'filter_none' },
-    { name: 'Form Field', route: 'form-field-demo', icon: 'code' },
     { name: 'Icon', route: 'icon-demo', icon: 'star' },
     { name: 'Linear Progress', route: 'linear-progress-demo', icon: 'compare_arrows' },
     { name: 'Menu', route: 'menu-demo', icon: 'menu' },
@@ -31,6 +30,7 @@ export class AppLayout {
 
   inputRoutes = [
     { name: 'Checkbox', route: 'checkbox-demo' },
+    { name: 'Form Field', route: 'form-field-demo' },
     { name: 'Radio Buttons', route: 'radio-demo' },
     { name: 'Select', route: 'select-demo' },
     { name: 'Slider', route: 'slider-demo' },
@@ -41,7 +41,8 @@ export class AppLayout {
   buttonRoutes = [
     { name: 'Button', route: '/button-demo' },
     { name: 'FAB', route: '/fab-demo' },
-    { name: 'Icon Toggle', route: '/icon-toggle-demo' }
+    { name: 'Icon Button', route: '/icon-button-demo' },
+    { name: 'Icon Toggle (deprecated)', route: '/icon-toggle-demo' }
   ];
 
   listRoutes = [
