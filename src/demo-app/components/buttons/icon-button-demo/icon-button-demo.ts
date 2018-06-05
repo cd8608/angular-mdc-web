@@ -4,4 +4,6 @@ import { Component } from '@angular/core';
   selector: 'icon-button-demo',
   templateUrl: './icon-button-demo.html'
 })
-export class IconButtonDemo { }
+export class IconButtonDemo {
+  isOn: boolean = false;
+}
